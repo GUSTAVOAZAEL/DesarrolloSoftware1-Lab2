@@ -26,3 +26,27 @@
 {
     display: none;
 }
+
+
+
+
+
+
+
+
+
+/* Hecho en clase
+-----------------------------------------------------------*/
+
+fieldset label
+{
+    display: block;
+    
+}
+    
+fieldset input
+{
+    display: block;
+    margin-bottom : 5px;
+    
+}
