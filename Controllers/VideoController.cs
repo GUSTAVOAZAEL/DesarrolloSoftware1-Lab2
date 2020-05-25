@@ -21,6 +21,21 @@ namespace MVCLaboratorio.Controllers
         }
 
 //--------------------------------------------------------------------------------
+
+        public ActionResult ReadVideo()
+        {
+          
+            ViewData["video"] = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo",
+                                        CommandType.StoredProcedure);
+
+            return View();
+        }
+
+
+
+
+
+//--------------------------------------------------------------------------------
         public ActionResult Create()
         {
             return View();
